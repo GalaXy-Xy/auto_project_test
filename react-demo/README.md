@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🚀 React Todo Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一个功能完整、界面美观的Todo应用，使用React Hooks和现代CSS技术构建。
 
-## Available Scripts
+## ✨ 功能特性
 
-In the project directory, you can run:
+- ✅ **添加任务**: 输入任务内容并添加到列表中
+- ✅ **完成任务**: 点击复选框标记任务为已完成
+- ✅ **删除任务**: 删除不需要的任务
+- ✅ **任务过滤**: 按全部/进行中/已完成状态筛选任务
+- ✅ **数据持久化**: 使用localStorage保存任务数据
+- ✅ **响应式设计**: 支持移动端和桌面端
+- ✅ **现代化UI**: 渐变背景、阴影效果、平滑动画
 
-### `npm start`
+## 🛠️ 技术栈
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 18** - 使用最新的React版本
+- **React Hooks** - useState, useEffect等现代React特性
+- **CSS3** - 渐变、阴影、动画、响应式设计
+- **localStorage** - 浏览器本地存储
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 快速开始
 
-### `npm test`
+### 安装依赖
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 启动开发服务器
+```bash
+npm start
+```
 
-### `npm run build`
+应用将在 [http://localhost:3000](http://localhost:3000) 启动
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 构建生产版本
+```bash
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📱 使用说明
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **添加任务**: 在输入框中输入任务内容，点击"Add Todo"按钮
+2. **完成任务**: 点击任务前的复选框来标记完成状态
+3. **删除任务**: 点击任务右侧的🗑️按钮删除任务
+4. **筛选任务**: 使用顶部的筛选按钮查看不同状态的任务
+5. **清理完成**: 点击"Clear Completed"按钮清理所有已完成的任务
 
-### `npm run eject`
+## 🎨 设计特色
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **渐变背景**: 使用紫色到蓝色的渐变背景
+- **毛玻璃效果**: 主容器使用半透明背景和模糊效果
+- **悬停动画**: 按钮和任务项有悬停效果和微动画
+- **响应式布局**: 自适应不同屏幕尺寸
+- **现代化配色**: 使用舒适的配色方案
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 项目结构
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+├── App.js          # 主应用组件
+├── App.css         # 应用样式
+├── index.js        # 应用入口点
+└── index.css       # 全局样式
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 开发日志
 
-## Learn More
+- **v1.0.0**: 初始版本，包含基本的Todo功能
+- 支持添加、完成、删除任务
+- 实现任务过滤和统计
+- 添加响应式设计和现代化UI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 贡献
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+欢迎提交Issue和Pull Request来改进这个项目！
 
-### Code Splitting
+## �� 许可证
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
