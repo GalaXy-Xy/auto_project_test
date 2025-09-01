@@ -1,0 +1,39 @@
+{
+  "project": {
+    "name": "auto_project_test",
+    "description": "自动项目开发测试仓库",
+    "repository": "https://github.com/GalaXy-Xy/auto_project_test.git",
+    "branch": "master",
+    "remote": "origin"
+  },
+  "github_accounts": {
+    "description": "GitHub账户配置信息，从github_accounts.xlsx读取",
+    "file_path": "github_accounts.xlsx",
+    "current_account": "default"
+  },
+  "auto_commit": {
+    "enabled": true,
+    "commit_prefix": "Auto commit:",
+    "auto_push": true,
+    "check_interval": 300,
+    "max_retries": 3,
+    "retry_delay": 5
+  },
+  "development": {
+    "framework": "react",
+    "auto_build": false,
+    "test_before_commit": false,
+    "lint_before_commit": false
+  },
+  "notifications": {
+    "email_notifications": false,
+    "slack_notifications": false,
+    "discord_notifications": false
+  },
+  "scripts": {
+    "pre_commit": [],
+    "post_commit": [],
+    "pre_push": [],
+    "post_push": []
+  }
+}
